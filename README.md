@@ -13,8 +13,16 @@ This project develops a machine learning model to predict borrower credit risk l
   5. Explainability using SHAP  
 
 ## Key Insights
-- XGBoost achieved the highest performance with ~89% accuracy.  
-- SHAP analysis revealed that income, credit history, and DTI ratio strongly influence predictions.  
+- XGBoost achieved the highest performance with ~95% accuracy.  
+- SHAP analysis revealed that income, credit history, and DTI ratio strongly influence predictions.
+
+## Dataset 
+-  import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("denychaen/lending-club-loans-rejects-data")
+
+print("Path to dataset files:", path)
 
 ## Files
 - `Credit Risk Scoring.ipynb` — main notebook with full workflow  
